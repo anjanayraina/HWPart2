@@ -18,10 +18,10 @@ public class Customer {
     //TODO implement methods
 
     // TODO uncomment this method after you implemented all attributes
-    /*
+
     @Override
     public String toString() {
-        return "Customer: " + name + ", money: " + money + "\n" + productsInBasket;
+        return "Customer: " + name + ", money: " + money + "\n" ;
     }
-     */
+
 }
