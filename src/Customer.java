@@ -19,6 +19,9 @@ public class Customer {
 
     // TODO uncomment this method after you implemented all attributes
 
-
+    @Override
+    public String toString() {
+        return "Customer: " + name + ", money: " + money + "\n" ;
+    }
 
 }
