@@ -19,6 +19,24 @@ public class Customer {
     //TODO implement methods
 
     // TODO uncomment this method after you implemented all attributes
+    public void adProductToBasket(Product product){
+
+    }
+
+    public boolean hasMoney(){
+        return money > 0;
+    }
+
+    public void pay(double amount){
+        if(amount < 0 || money < amount) {
+            throw new UnsupportedOperationException();
+        }
+        money-=amount;
+    }
+
+
+
+
 
 
 }
