@@ -15,6 +15,7 @@ public class Customer {
         return money;
     }
 
+
     //TODO implement methods
 
     // TODO uncomment this method after you implemented all attributes
