@@ -1,3 +1,5 @@
+
+
 public class List<T> {
     private final T info;
     private List<T> next;
@@ -46,4 +48,3 @@ public class List<T> {
         return result + "]";
     }
 }
-

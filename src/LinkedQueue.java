@@ -1,3 +1,6 @@
+
+
+
 public class LinkedQueue<T> implements Queue<T> {
     private List<T> first;
     private List<T> last;

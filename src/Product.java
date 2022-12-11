@@ -1,3 +1,4 @@
+
 class Product<T> {
 
     private String name;
@@ -5,11 +6,9 @@ class Product<T> {
 
     public Product (String name, double price) {
         //TODO throw an exception
-
+        if ((name.equals("") || name == null  )|| price <= 0  )throw new IllegalArgumentException();
         this.name = name;
         this.price = price;
-        if ((name.equals("null") || name == null  )|| price <= 0  )throw new IllegalArgumentException();
-
     }
 
     public String getName() {
@@ -24,4 +23,3 @@ class Product<T> {
         return "Product: " + name + " Price: " + price;
     }
 }
-

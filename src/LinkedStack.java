@@ -1,3 +1,5 @@
+
+
 public class LinkedStack<T> implements Stack<T> {
 
     private List<T> first = null;
@@ -34,7 +36,4 @@ public class LinkedStack<T> implements Stack<T> {
             return "";
         return first.toString();
     }
-//
-
-
 }

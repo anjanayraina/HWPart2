@@ -1,3 +1,5 @@
+
+
 public interface DataStructure {
     int size();
 
