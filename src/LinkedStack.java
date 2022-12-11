@@ -34,6 +34,6 @@ public class LinkedStack<T> implements Stack<T> {
             return "";
         return first.toString();
     }
-
+//
 
 }
